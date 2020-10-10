@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE casinos SYSTEM "casinos.dtd"> -->
+
+<casinos>
+    <casino>
+        <name>Gran Casino</name>
+        <Games>
+            <Game GameId="1">
+                <GameName>BlackJack</GameName>
+                <description>juego de cartas, propio de los casinos con una o más barajas inglesas de 52 cartas sin los comodines,
+                 que consiste en sumar un valor lo más próximo a 21 pero sin pasarse
+                </description>
+                <rules type="text">
+                    <url>https://www.elcasinoencasa.com/infoblackjack</url>
+                </rules>
+                <play type="text">
+                    <url>https://www.elcasino.com/playblackjack</url>
+                </play>
+            </Game>
+            <Game GameId="2">
+                <GameName>Tragaperras</GameName>
+                <description> pantalla de vídeo que muestra los símbolos y un generador de números aleatorios que determina
+                    el lugar donde se detendrán.
+                </description>
+                <play type="text">
+            <url>https://www.elcasino.com/playtragaperras</url>
+        </play>
+            </Game>
+            <Game GameId="3">
+                <GameName>Poker</GameName>
+                <description>un juego de apuestas en el que los jugadores, con todas o parte de sus cartas ocultas,
+                             hacen apuestas sobre una puja inicial, recayendo la suma total de las apuestas en el jugador
+                              o jugadores con la mejor combinación de cartas 
+                </description>
+                <rules type="text">
+                    <url>https://www.elcasinoencasa.com/infopoker</url>
+                </rules>
+                <play type="text">
+                    <url>https://www.elcasino.com/playpoker</url>
+                </play>
+            </Game>
+            <Game GameId="4">
+                <GameName>Ruleta Americana</GameName>
+                <description> un juego de azar
+                </description>
+                <rules type="text">
+                    <url>https://www.elcasinoencasa.com/inforuleta</url>
+                </rules>
+                <play type="text">
+                    <url>https://www.elcasino.com/playruleta</url>
+                </play>
+            </Game>
+            <Game GameId="5">
+                <GameName>Solitario</GameName>
+                <description>un juego de naipes para un solo jugador
+                </description>
+                <rules type="text">
+                    <url>https://www.elcasinoencasa.com/infosolitario</url>
+                </rules>
+                <play type="text">
+                    <url>https://www.elcasino.com/playsolitario</url>
+                </play>
+            </Game>
+        </Games>
+        <services>
+            <food>
+                <pizza type="number">
+                    <phoneNumber>693256987</phoneNumber>
+                </pizza>
+                <burger type="number">
+                    <phoneNumber>653269841</phoneNumber>
+                </burger>
+                <japanese type="number">
+                    <phoneNumber>658926598</phoneNumber>
+                </japanese>
+            </food>
+        </services>
+    </casino>
+</casinos>

@@ -1,0 +1,25 @@
+<!ELEMENT casinos (casino+)>
+<!ELEMENT casino (name)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT Games (Game+)>
+<!ELEMENT Games (GameName,description,rules?)>
+<!ELEMENT GameName (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT rules (url)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT play (url)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT services (food)>
+<!ELEMENT food (pizza,burger,japanese)>
+<!ELEMENT pizza (phoneNumber)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT burger (phoneNumber)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ELEMENT japanese (phoneNumber)>
+<!ELEMENT phoneNumber (#PCDATA)>
+<!ATTLIST Game GameId CDATA #REQUIRED>
+<!ATTLIST rules type CDATA #REQUIRED>
+<!ATTLIST play type CDATA #REQUIRED>
+<!ATTLIST pizza type CDATA #REQUIRED>
+<!ATTLIST burger type CDATA #REQUIRED>
+<!ATTLIST japanese type CDATA #REQUIRED>
